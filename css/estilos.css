@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("menu.css");
+@import url("banner.css");
+@import url("blog.css");
+@import url("info.css");
+* {
+   /*outline: 1px solid red;*/
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color:#fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.contenedor h1{
+    margin: 8px;
+}
+
+header label{
+    margin: 14px;
+display: flex;
+}
+#servicios{
+    text-align: center;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    padding-inline: 50px 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(300px,1fr));
+  
+    gap: 1em;
+}
+.gallery_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    
+}
+.sociales a{
+        color:#333;
+    text-decoration: none;
+    }
+.contenedor h3{
+    font-size: 18px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#info h2{
+    margin-top: 20px;
+}
+.efecto_color {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+}
+
+.efecto_color:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05); /* Un pequeño zoom para que se vea más pro */
+}
+.languages_picture{
+   width: 18%;
+    height: 100px;
+    opacity: 0.5;
+}
+
+
+@media (min-width: 1024px) {
+    .menu {
+        display: flex;
+        justify-content: flex-end; /* Esto lo manda a la derecha */
+        position: static;
+        transform: translateX(0);
+        width: auto;
+        height: auto;
+    }
+    .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-inline: 50px 0;
+}
+    header label{
+        display: none;
+    }
+.languages_container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    background: #F5F2F3;
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+}
+.languages_picture{
+   width: 20%;
+    height: 100px;
+    opacity: 0.5;
+}
+
+
+
+
+
+

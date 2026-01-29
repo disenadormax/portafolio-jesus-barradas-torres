@@ -1,0 +1,20 @@
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+    
+#blog article{
+   margin: 15px;
+}
+#blog img{
+    width: 100%;
+    max-width: 280;
+    border-radius:40px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,.5);
+    
+}
+#blog h4{
+   text-align: center;
+}

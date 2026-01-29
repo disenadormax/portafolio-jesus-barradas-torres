@@ -1,0 +1,33 @@
+#info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: -29px;
+}
+#info h2 {
+    margin-top: 20px;
+    padding: 40px;
+}
+.pet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-pet{
+    margin: 20px;
+    width: 40%;
+}
+.info-pet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    padding: 18px;
+}
+@media (min-width: 1024px) {
+    .info-pet{
+    margin: 20px;
+    width: 20%;
+}
+   
+}
