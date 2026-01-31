@@ -108,5 +108,20 @@
         <script src="https://kit.fontawesome.com/7070e71097.js" crossorigin="anonymous"></script>
     </body>
 
+<script>
+  // Seleccionamos todos los enlaces del menú
+  const menuLinks = document.querySelectorAll('nav a'); 
+  // Seleccionamos el botón que abre/cierra el menú (ajusta el ID si es diferente)
+  const menuCheckbox = document.querySelector('#menu-bar'); 
 
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Al hacer clic, desmarcamos el checkbox para que el menú se esconda
+      if (menuCheckbox) {
+        menuCheckbox.checked = false;
+      }
+    });
+  });
+</script>
 </html>
+
