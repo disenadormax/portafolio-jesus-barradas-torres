@@ -142,6 +142,79 @@ html {
     height: 100px;
     opacity: 0.5;
 }
+}
+    h2{
+    text-align: center;
+    
+    color: rgba(97,96,96);
+    
+}
+.descripcion{
+    text-align: center;
+  
+}
+.card{
+    display: flex;
+    width: 90%;
+    height: 50%;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    margin: 0 auto;
+    background: url(../images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+    background-size: cover;
+    border-radius: 40px;
+   
+    
+    
+
+}
+.blanco{
+
+    color: #FFFFFF;
+
+text-shadow: 4px 3px 0 #7A7A7A;
+}
+.card_perfil{
+        width: 200px;
+     box-shadow: 2px 2px 5px black;
+    border :6px solid white;
+    border-radius: 40px;
+ 
+    }
+
+img{
+
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+.uno{
+    background:rgba(205,127,50, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+     border-right: 1px solid rgba(255,255,255,0.5);
+
+}
+.dos{
+     background:rgba(192,192,192, 0.5);
+     border-left: 1px solid rgba(255,255,255,0.5);
+}
+.tres{
+  background:rgba(218,165,32, 0.5);
+     border-left: 1px solid rgba(255,255,255,0.5);
+}
+p{
+    font-size: 10px;
+}
+.big{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    color: #FFFFFF;
+
+text-shadow: 4px 3px 0px #7A7A7A;
+    }
 
 
 
